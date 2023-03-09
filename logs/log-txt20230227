@@ -1,0 +1,13 @@
+2023-02-27 17:05:57.458 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-27 17:05:57.508 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-27 17:05:57.518 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 17:05:57.519 +05:30 [INF] Hosting environment: Development
+2023-02-27 17:05:57.520 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-27 17:11:16.389 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-27 17:11:16.440 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-27 17:11:16.454 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-27 17:11:16.467 +05:30 [INF] Hosting environment: Development
+2023-02-27 17:11:16.468 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-27 17:12:07.387 +05:30 [INF] Login Attempt for user@example.com 
+2023-02-27 17:12:07.393 +05:30 [INF] Looking for user with email user@example.com
+2023-02-27 17:12:12.450 +05:30 [INF] Token generated for user with email user@example.com | Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwianRpIjoiNGRjMDIzZWUtNjY5Yy00MWFlLThlYmUtMDQwOTcxOGU1MTJlIiwiZW1haWwiOiJ1c2VyQGV4YW1wbGUuY29tIiwidWlkIjoiOGQ2ZjcwYWMtODQ0NC00YmE2LThhZWQtYWJlMGE3NWNjNmUxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsImV4cCI6MTY3NzQ5OTMzMiwiaXNzIjoiSG90ZWxMaXN0aW5nQXBpIiwiYXVkIjoiSG90ZWxMaXN0aW5nQ2xpZW50cyJ9.FA0v333rLMYGrmhIzWwf9jaSnLlSUCcG-FbQ1dg6li0

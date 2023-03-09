@@ -1,0 +1,207 @@
+2023-02-23 11:38:33.940 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:38:33.986 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:38:33.997 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:38:33.997 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:38:33.998 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:39:33.869 +05:30 [INF] Register attempt for Admin@gmail.com
+2023-02-23 11:41:24.180 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:41:24.244 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:41:24.255 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:41:24.256 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:41:24.257 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:42:04.255 +05:30 [WRN] Invalid password for user.
+2023-02-23 11:42:20.522 +05:30 [ERR] Something went wrong while processing /api/Account/login
+2023-02-23 11:42:51.010 +05:30 [ERR] Something went wrong while processing /api/Account/login
+2023-02-23 11:43:04.506 +05:30 [WRN] Invalid password for user.
+2023-02-23 11:43:36.513 +05:30 [INF] Register attempt for person1@example.com
+2023-02-23 11:43:52.834 +05:30 [ERR] Something went wrong while processing /api/Account/login
+2023-02-23 11:43:58.095 +05:30 [ERR] Something went wrong while processing /api/Account/login
+2023-02-23 11:46:41.044 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:46:41.078 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:46:41.082 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:46:41.083 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:46:41.083 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:46:56.651 +05:30 [INF] Login Attempt for user@example.com 
+2023-02-23 11:46:57.934 +05:30 [ERR] Something went wrong while processing /api/Account/login
+2023-02-23 11:47:27.088 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:47:27.116 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:47:27.120 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:47:27.121 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:47:27.121 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:47:39.266 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:47:39.303 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:47:39.313 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:47:39.313 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:47:39.314 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:47:58.791 +05:30 [INF] Login Attempt for admin@gmail.com 
+2023-02-23 11:48:00.894 +05:30 [WRN] Invalid password for user.
+2023-02-23 11:48:37.888 +05:30 [INF] Login Attempt for user@example.com 
+2023-02-23 11:48:38.091 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListing.API.Core.Repository.AuthManager.GenerateToken() in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 32
+   at HotelListing.API.Core.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 61
+   at HotelListing.Controllers.AccountController.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Controllers\AccountController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-23 11:49:30.351 +05:30 [INF] Login Attempt for person1@example.com 
+2023-02-23 11:49:30.481 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListing.API.Core.Repository.AuthManager.GenerateToken() in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 32
+   at HotelListing.API.Core.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 61
+   at HotelListing.Controllers.AccountController.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Controllers\AccountController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-23 11:50:27.191 +05:30 [INF] Login Attempt for person1@example.com 
+2023-02-23 11:50:27.309 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListing.API.Core.Repository.AuthManager.GenerateToken() in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 32
+   at HotelListing.API.Core.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 61
+   at HotelListing.Controllers.AccountController.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Controllers\AccountController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-23 11:51:43.959 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:51:44.001 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:51:44.015 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:51:44.015 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:51:44.016 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:52:07.213 +05:30 [INF] Login Attempt for user@example.com 
+2023-02-23 11:52:09.362 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListing.API.Core.Repository.AuthManager.GenerateToken() in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 32
+   at HotelListing.API.Core.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 61
+   at HotelListing.Controllers.AccountController.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Controllers\AccountController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-23 11:55:56.281 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 11:55:56.321 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 11:55:56.330 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 11:55:56.331 +05:30 [INF] Hosting environment: Development
+2023-02-23 11:55:56.332 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 11:56:13.397 +05:30 [INF] Login Attempt for user@example.com 
+2023-02-23 11:56:15.532 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'user')
+   at Microsoft.AspNetCore.Identity.UserManager`1.GetRolesAsync(TUser user)
+   at HotelListing.API.Core.Repository.AuthManager.GenerateToken() in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 32
+   at HotelListing.API.Core.Repository.AuthManager.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Repository\AuthManager.cs:line 61
+   at HotelListing.API.Controllers.AccountController.Login(LoginDto loginDto) in C:\Users\shverma\source\repos\WebApplication3\WebApplication3\Controllers\AccountController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-23 12:01:17.414 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 12:01:17.453 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 12:01:17.462 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 12:01:17.462 +05:30 [INF] Hosting environment: Development
+2023-02-23 12:01:17.463 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 12:01:35.536 +05:30 [INF] Registration Attempt for person@example.com
+2023-02-23 12:01:35.551 +05:30 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2023-02-23 12:01:48.419 +05:30 [INF] Registration Attempt for person@example.com
+2023-02-23 12:02:21.650 +05:30 [INF] Login Attempt for person@example.com 
+2023-02-23 12:02:21.652 +05:30 [INF] Looking for user with email person@example.com
+2023-02-23 12:02:22.053 +05:30 [INF] Token generated for user with email person@example.com | Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwZXJzb25AZXhhbXBsZS5jb20iLCJqdGkiOiI4NDNmOGFmMC0yMDg1LTQyYWQtODExMi01MDAzZTExODA4ZTgiLCJlbWFpbCI6InBlcnNvbkBleGFtcGxlLmNvbSIsInVpZCI6ImVmNmFiMWI4LWFmYTctNGY0MC05MjJjLTUyMWY1NTE5NGEzMiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJleHAiOjE2NzcxMzUxNDEsImlzcyI6IkhvdGVsTGlzdGluZ0FwaSIsImF1ZCI6IkhvdGVsTGlzdGluZ0NsaWVudHMifQ.jnQ559nFJMPzQB0DXRy8hcXUNepcvbdTONS59xI2ioU
+2023-02-23 12:02:52.431 +05:30 [INF] Login Attempt for admin@gmail.com 
+2023-02-23 12:02:52.432 +05:30 [INF] Looking for user with email admin@gmail.com
+2023-02-23 12:02:52.448 +05:30 [WRN] Invalid password for user.
+2023-02-23 12:02:52.449 +05:30 [WRN] User with email admin@gmail.com was not found
+2023-02-23 12:04:58.247 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 12:04:58.282 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 12:04:58.286 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 12:04:58.287 +05:30 [INF] Hosting environment: Development
+2023-02-23 12:04:58.288 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 12:05:01.890 +05:30 [INF] Login Attempt for person1@example.com 
+2023-02-23 12:05:01.894 +05:30 [INF] Looking for user with email person1@example.com
+2023-02-23 12:05:03.323 +05:30 [INF] Token generated for user with email person1@example.com | Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwZXJzb24xQGV4YW1wbGUuY29tIiwianRpIjoiMDkwNzc3NzktYzJjNy00YmQyLTk2NmYtNDIyYjY0NTZmMjVkIiwiZW1haWwiOiJwZXJzb24xQGV4YW1wbGUuY29tIiwidWlkIjoiN2MyZTYxYzUtYzM2NS00ZjQ2LTg0NGYtYjAwMzBiMmYzOWUwIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTY3NzEzNTMwMywiaXNzIjoiSG90ZWxMaXN0aW5nQXBpIiwiYXVkIjoiSG90ZWxMaXN0aW5nQ2xpZW50cyJ9.Ej5du23XcxWfGIZq7DCx7IQjBLvSdCIILTSYe15zMHA
+2023-02-23 12:55:54.425 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 12:55:54.476 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 12:55:54.486 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 12:55:54.487 +05:30 [INF] Hosting environment: Development
+2023-02-23 12:55:54.488 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 12:58:51.349 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 12:58:51.378 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 12:58:51.381 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 12:58:51.382 +05:30 [INF] Hosting environment: Development
+2023-02-23 12:58:51.382 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 13:13:02.665 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 13:13:02.695 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 13:13:02.699 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 13:13:02.699 +05:30 [INF] Hosting environment: Development
+2023-02-23 13:13:02.700 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
+2023-02-23 13:13:14.495 +05:30 [INF] Registration Attempt for user@example.com
+2023-02-23 13:13:14.511 +05:30 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2023-02-23 13:17:47.759 +05:30 [INF] Now listening on: https://localhost:7238
+2023-02-23 13:17:47.805 +05:30 [INF] Now listening on: http://localhost:5178
+2023-02-23 13:17:47.814 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-23 13:17:47.815 +05:30 [INF] Hosting environment: Development
+2023-02-23 13:17:47.815 +05:30 [INF] Content root path: C:\Users\shverma\source\repos\WebApplication3\WebApplication3\
