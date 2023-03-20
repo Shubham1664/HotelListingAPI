@@ -5,8 +5,10 @@ namespace HotelListing.Repository
 {
     public class HotelRepository : GenericRepository<Hotel>, IhotelsRepository
     {
-        public HotelRepository(HotelDbContext context) : base(context)
-        {
-        }
-    }
+		private readonly HotelDbContext _context;
+		public HotelRepository(HotelDbContext context) : base(context)
+		{
+			_context = context;
+		}
+	}
 }
