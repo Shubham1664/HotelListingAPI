@@ -11887,11 +11887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shverma\\source\\repos\\WebApplication3\\WebApplication3\\HotelListing.csproj",
+      "projectUniqueName": "C:\\Users\\shverma\\Desktop\\WebApplication3\\WebApplication3\\HotelListing.csproj",
       "projectName": "HotelListing",
-      "projectPath": "C:\\Users\\shverma\\source\\repos\\WebApplication3\\WebApplication3\\HotelListing.csproj",
+      "projectPath": "C:\\Users\\shverma\\Desktop\\WebApplication3\\WebApplication3\\HotelListing.csproj",
       "packagesPath": "C:\\Users\\shverma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shverma\\source\\repos\\WebApplication3\\WebApplication3\\obj\\",
+      "outputPath": "C:\\Users\\shverma\\Desktop\\WebApplication3\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shverma\\AppData\\Roaming\\NuGet\\NuGet.Config",
